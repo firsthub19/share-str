@@ -31,7 +31,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "ftp-egest")
 # 
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.shareus.io")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "PUIAQBIFrydvLhIzAOeGV8yZppu2")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "3nQNglAfs0TrrYj8MRgNKdqMEne2")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
